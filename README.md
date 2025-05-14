@@ -6,7 +6,7 @@
 - [x] Move folder open state to URL
 - [ ] Add auth
 - [ ] Add file uploading
-- [?] Add Posthog analytics
+- [ ] Add Posthog analytics?
 
 ## Next Steps
 
