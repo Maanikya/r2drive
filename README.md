@@ -10,8 +10,8 @@
 
 ## Next Steps
 
-- [ ] Change folders to link components, remove all client states
+- [x] Change folders to link components, remove all client states
 - [ ] Clean up the database and data fetching patterns
 - [ ] Real homepage
 
-Till 1:27
+Till 1:31
