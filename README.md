@@ -3,14 +3,15 @@
 ## TODO
 
 - [x] Setup database and data model
-- [ ] Move folder open state to URL
+- [x] Move folder open state to URL
 - [ ] Add auth
 - [ ] Add file uploading
-
-## Status
-
-- [x] Added database connection
+- [?] Add Posthog analytics
 
 ## Next Steps
 
-Till 1:01
+- [ ] Change folders to link components, remove all client states
+- [ ] Clean up the database and data fetching patterns
+- [ ] Real homepage
+
+Till 1:27
