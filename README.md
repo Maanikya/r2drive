@@ -15,4 +15,4 @@
 - [ ] Delete files button
 - [ ] Allow files that aren't images to be uploaded 
 
-Till 1:57
+Till 2:23
