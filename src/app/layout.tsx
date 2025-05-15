@@ -4,6 +4,8 @@ import { type Metadata } from "next";
 import { Geist } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import { PostHogProvider } from "./_providers/posthog-provider";
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: "R2Drive",
@@ -26,6 +28,8 @@ export default function RootLayout({
         <body>
           <PostHogProvider>
             {children}
+            <SpeedInsights />
+            <Analytics />
           </PostHogProvider>
         </body>
       </html>
