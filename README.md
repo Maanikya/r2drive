@@ -13,7 +13,7 @@
 - [x] Add ownership to files and folders
 - [x] Upload files to the right folder
 - [ ] Delete files button
-- [ ] Allow files that aren't images to be uploaded 
+- [x] Allow files that aren't images to be uploaded 
 - [ ] Real homepage
 
-Till 2:37
+Till 2:40
