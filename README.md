@@ -14,4 +14,4 @@
 - [x] Clean up the database and data fetching patterns
 - [ ] Real homepage
 
-Till 1:50
+Till 1:57
