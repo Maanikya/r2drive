@@ -7,13 +7,7 @@
 - [x] Add auth
 - [x] Add file uploading
 - [ ] Add Posthog analytics?
+- [ ] Add delete functionality
+- [ ] Real homepage and onboarding
 
-## Next Steps
-
-- [x] Add ownership to files and folders
-- [x] Upload files to the right folder
-- [ ] Delete files button
-- [x] Allow files that aren't images to be uploaded 
-- [ ] Real homepage
-
-Till 2:40
+Till 2:58
