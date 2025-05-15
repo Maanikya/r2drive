@@ -10,4 +10,4 @@
 - [ ] Add delete functionality
 - [ ] Real homepage and onboarding
 
-Till 2:58
+Till 2:58:30
