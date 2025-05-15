@@ -6,7 +6,7 @@
 - [x] Move folder open state to URL
 - [x] Add auth
 - [x] Add file uploading
-- [ ] Add Posthog analytics?
+- [x] Add Posthog analytics
 - [ ] Add delete functionality
 - [ ] Real homepage and onboarding
 
