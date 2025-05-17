@@ -11,3 +11,8 @@
 - [ ] Real homepage and onboarding
 
 Till 2:58:30
+
+## References
+
+- [x] https://developers.cloudflare.com/r2/api/s3/presigned-urls/
+- [x] https://github.com/harshil1712/nextjs-r2-demo/tree/main
