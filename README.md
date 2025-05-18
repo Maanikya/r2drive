@@ -8,10 +8,15 @@
 - [x] Add file uploading
 - [x] Add Posthog analytics
 - [x] Sort files and folders order
-- [ ] Add delete functionality
+- [x] Add delete functionality
 - [ ] Real homepage and onboarding
 
-Till 2:58:30
+Till 3:11
+
+## Follow-ups
+
+- [x] Folder delete functionality
+Fetch all the folders that have it as a parent 
 
 ## References
 
