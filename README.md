@@ -11,7 +11,7 @@
 - [x] Add delete functionality
 - [ ] Real homepage and onboarding
 
-Till 3:11
+Till 3:18
 
 ## Follow-ups
 
