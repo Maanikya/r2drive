@@ -1,5 +1,18 @@
+"use client";
+
+import { SignedIn, SignInButton, SignOutButton } from "@clerk/clerk-react";
+import { SignedOut } from "@clerk/nextjs";
 
 export default function HomePage() {
-  return <h1>{"YoYoYo BitConnect!!!!!!"}</h1>
+  return (
+    <div>
+      <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      <SignedIn>
+        <SignOutButton />
+      </SignedIn>
+    </div>
+  )
 }
 

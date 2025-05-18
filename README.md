@@ -7,6 +7,7 @@
 - [x] Add auth
 - [x] Add file uploading
 - [x] Add Posthog analytics
+- [x] Sort files and folders order
 - [ ] Add delete functionality
 - [ ] Real homepage and onboarding
 

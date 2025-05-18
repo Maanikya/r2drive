@@ -3,9 +3,9 @@ import "~/styles/globals.css";
 import { type Metadata } from "next";
 import { Geist } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
-import { PostHogProvider } from "./_providers/posthog-provider";
-import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Analytics } from '@vercel/analytics/next';
+// import { PostHogProvider } from "./_providers/posthog-provider";
+// import { SpeedInsights } from '@vercel/speed-insights/next';
+// import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: "R2Drive",
@@ -26,11 +26,11 @@ export default function RootLayout({
 
       <html lang="en" className={`${geist.variable}`}>
         <body>
-          <PostHogProvider>
-            {children}
-            <SpeedInsights />
-            <Analytics />
-          </PostHogProvider>
+          {/* <PostHogProvider> */}
+          {children}
+          {/* <SpeedInsights /> */}
+          {/* <Analytics /> */}
+          {/* </PostHogProvider> */}
         </body>
       </html>
     </ClerkProvider>
