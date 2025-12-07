@@ -5,8 +5,9 @@ import { FileRow, FolderRow } from "./file-row"
 import type { files_table, folders_table } from "~/server/db/schema"
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
-import { UploadButton } from "~/components/uploadthing";
-import { useRouter } from "next/navigation";
+// import { UploadButton } from "~/components/uploadthing";
+// import { useRouter } from "next/navigation";
+import UploadR2 from "~/components/ui/Upload";
 
 export default function DriveContents(props: {
   files: (typeof files_table.$inferSelect)[];
@@ -14,7 +15,6 @@ export default function DriveContents(props: {
   parents: (typeof folders_table.$inferSelect)[];
   currentFolderId: number;
 }) {
-  const navigate = useRouter();
 
   return (
     <div className="min-h-screen bg-gray-900 text-gray-100 p-8">
@@ -63,14 +63,15 @@ export default function DriveContents(props: {
             ))}
           </ul>
         </div>
-        <UploadButton
+        {/* <UploadButton
           className="mt-4"
           endpoint="driveUploader"
           onClientUploadComplete={() => {
             navigate.refresh();
           }}
           input={{ folderId: props.currentFolderId }}
-        />
+        /> */}
+        <UploadR2 folderId={props.currentFolderId} />
       </div>
     </div>
   )
